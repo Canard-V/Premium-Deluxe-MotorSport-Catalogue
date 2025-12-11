@@ -38,7 +38,6 @@
             font-size:1rem;color:#888;font-weight:300;letter-spacing:0.18em;text-transform:uppercase;
         }
 
-        /* bouton accueil en haut à droite */
         .home-link{
             position:fixed;
             top:16px;
@@ -204,12 +203,9 @@
 
 <div class="vehicles-grid" id="vehiclesGrid"></div>
 
-<!-- 1) données : fichier externe généré depuis ta liste -->
 <script src="vehicules-data.js"></script>
 
-<!-- 2) logique d’affichage -->
 <script>
-    // VEHICLES_DATA vient de vehicules-data.js [file:82]
     const vehicles = typeof VEHICLES_DATA !== "undefined" ? VEHICLES_DATA : [];
 
     function renderVehicles(category = "all") {
@@ -269,5 +265,6 @@
 </script>
 </body>
 </html>
+
 
 
