@@ -107,12 +107,7 @@ const VEHICLES_DATA = [
     { type:"SUVs", marque:"Pegassi", modele:"Toros", prix:"$180 000,00" },
     { type:"SUVs", marque:"Mammoth", modele:"Patriot", prix:"$250 000,00" },
     { type:"SUVs", marque:"Mammoth", modele:"Patriot stretch", prix:"$310 000,00" },
-
-    // … puis continue exactement de la même façon pour
-    // Coupes, Muscle, Sport-Classics, Sport, Super, Motorcyles, Off-Roads, VAN
-    // en recopiant toutes les lignes restantes du fichier. [file:82]
 ];
-// Suite de VEHICLES_DATA
 
 // === Coupes ===
 VEHICLES_DATA.push(
@@ -458,3 +453,4 @@ VEHICLES_DATA.push(
     { type:"VAN", marque:"Bravado", modele:"Esperta", prix:"$55 000,00" },
     { type:"VAN", marque:"Vapid", modele:"Speedo Custom", prix:"$238 000,00" }
 );
+
